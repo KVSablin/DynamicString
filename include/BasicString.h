@@ -90,13 +90,13 @@ private:
     // SSO - small string optimisation
     union SSO
     {
-        pointer			ptr = nullptr;
+        pointer         ptr = nullptr;
         value_type      buffer[BUF_SIZE];
     };
     
     //
     SSO                 m_string;
-    size_type		    m_size = 0;
+    size_type           m_size = 0;
     size_type           m_capacity = BUF_SIZE - 1;
     category_type       m_category = category_type::SC_Small;
 };

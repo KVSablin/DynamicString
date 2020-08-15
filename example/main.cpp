@@ -23,5 +23,5 @@ int main(int argc, char** argv)
         std::cout << String("No input arguments") << '\n';
     }
    
-    return 1;
+    return 0;
 }
